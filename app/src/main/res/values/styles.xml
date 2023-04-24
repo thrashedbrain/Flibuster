@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSizeSearch" parent="">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Round" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSizeBottom" parent="">
+        <item name="cornerSizeBottomLeft">16dp</item>
+        <item name="cornerSizeBottomRight">16dp</item>
+    </style>
+
+    <style name="TextInputLayout.App.Search" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="colorAccent">@color/colorBlue</item>
+        <item name="colorControlActivated">@color/colorBlue</item>
+    </style>
+
+    <style name="TextInputEditText.App.Search" parent="">
+        <item name="colorPrimary">@color/colorBlue60</item>
+    </style>
+
+
+    <style name="Widget.App.Button.Main" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:elevation">@null</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="icon">@drawable/ic_download</item>
+        <item name="iconTint">@color/white</item>
+        <item name="iconGravity">textEnd</item>
+        <item name="android:backgroundTint">@color/colorBlue</item>
+    </style>
+
+
+</resources>
